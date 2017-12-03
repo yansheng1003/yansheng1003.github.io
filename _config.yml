@@ -80,6 +80,6 @@ deploy:
   type: git
   repository: # 可选择同时部署到 GitHub 和 coding 或者只部署到 Github
     github: git@github.com:yansheng1003/yansheng1003.github.io.git
-    coding: git@git.coding.net:JLong/blog.git
+    ##coding: git@git.coding.net:JLong/blog.git
     jlongpl: git@jlong:/home/git/repo/blog.git
   branch: master 
