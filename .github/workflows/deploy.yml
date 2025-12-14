@@ -29,4 +29,4 @@ jobs:
           #github_token: ${{ secrets.GITHUB_TOKEN }}
           personal_token: ${{ secrets.HUGO_DEPLOY_KEY }} 
           publish_dir: ./public
-          cname: jlong.github.io
+          cname: yansheng1003.github.io
