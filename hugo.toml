@@ -1,5 +1,5 @@
 baseURL = "https://yansheng1003.github.io/"
-title = "我的技术博客"
+title = "长期主义"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh"
 
@@ -27,7 +27,7 @@ theme = "PaperMod"
 # 参数配置
 [params]
   env = "production"
-  title = "我的技术博客"
+  title = "think and plan"
   description = "记录编程与思考"
   author = "Jlong"
 
