@@ -1,0 +1,60 @@
+baseURL = "https://yansheng1003.github.io/"
+title = "我的技术博客"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh"
+
+# 构建选项
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+# 启用相关功能
+enableEmoji = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+# 主题
+theme = "PaperMod"
+
+# 必要的菜单（PaperMod 需要定义一个空的 main 菜单）
+[menu]
+  [[menu.main]]
+    name = ""
+    url = ""
+    weight = 0
+
+# 参数配置
+[params]
+  env = "production"
+  title = "我的技术博客"
+  description = "记录编程与思考"
+  author = "Jlong"
+
+  # 主页信息（可选）
+  homeInfoParams = { Title = "欢迎来到我的博客", Content = "这里分享技术、经验和思考。" }
+
+  # 社交图标
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yansheng1003"
+
+  # 搜索配置（Fuse.js）
+  [params.fuseOpts]
+    isCaseSensitive = false
+    showAllMatches = true
+    tokenize = true
+
+  # 启用深色模式切换
+  defaultTheme = "auto"  # 可选: "light", "dark", "auto"
+
+  # 显示文章阅读时间
+  showReadingTime = true
+
+  # 评论系统（可选，例如 Utterances）
+  # [params.utterances]
+  #   repo = "你的用户名/你的用户名.github.io"
+  #   issueTerm = "pathname"
+  #   label = "blog-comment"
+
+
